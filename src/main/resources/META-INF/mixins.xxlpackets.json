@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "tfar.xlpackets.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "xxlpackets.refmap.json",
+  "mixins": [
+    "ClientboundCustomPayloadPacketMixin",
+    "CompressionDecoderMixin",
+    "PackeEncoderMixin",
+    "PacketByteBufMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="CC0-1.0"
+
+[[mods]]
+modId="xxlpackets"
+version="${version}"
+displayName="XXLPackets"
+description="Even Bigger Packet Size Limit"
+authors="Tfarecnim (Original Creator), Lazul1ne"
+credits="Tfarecnim (Original Creator), Lazul1ne"
+logoFile="assets/xlpackets/icon.png"
+updateJSONURL=""
+displayURL="https://modrinth.com/mod/xxl-packets"
+issueTrackerURL="https://github.com/lazul1ne/XXLPackets/issues"
+
+[[dependencies.xxlpackets]]
+modId="neoforge"
+mandatory=true
+versionRange="[21.1.209,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.xxlpackets]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
