@@ -1,10 +1,11 @@
 # Automatically build the project and run any configured tests for every push
-# and submitted pull request. This can help catch issues that only occur on
-# certain platforms or Java versions, and provides a first line of defence
-# against bad commits.
+# and submitted pull request, or when triggered manually.
 
 name: build
-on: [pull_request, push]
+on: 
+  pull_request:
+  push:
+  workflow_dispatch: # Enables manual triggering from the Actions tab or API
 
 jobs:
   build:
